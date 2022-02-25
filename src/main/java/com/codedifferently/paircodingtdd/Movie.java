@@ -6,12 +6,15 @@ public class Movie {
 
     public Movie(String title, Rating rating){
         this.title = title;
+        this.rating = rating;
     }
 
     public String getTitle(){
 
         return null;
     }
+
+
 
     public void setTitle(String title){
 

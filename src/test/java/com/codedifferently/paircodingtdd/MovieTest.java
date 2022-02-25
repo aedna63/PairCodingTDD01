@@ -13,4 +13,12 @@ public class MovieTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
+    public void getTitleTest(){
+        Movie movie = new Movie("Coming To America", Rating.R);
+        String expected = "Coming To America";
+        String actual = movie.getTitle();
+        Assertions.assertEquals(expected, actual);
+    }
+
 }
