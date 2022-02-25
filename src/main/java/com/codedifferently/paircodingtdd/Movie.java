@@ -4,11 +4,13 @@ public class Movie {
     private String title;
     private Rating rating;
     private Double ranking;
+    private Integer length;
 
-    public Movie(String title, Rating rating, Double ranking){
+    public Movie(String title, Rating rating, Double ranking, Integer length){
         this.title = title;
         this.rating = rating;
         this.ranking = ranking;
+        this.length = length;
     }
 
     public String getTitle(){
@@ -36,6 +38,10 @@ public class Movie {
     public void setRanking(Double ranking){
 
 
+    }
+
+    public Integer getLength(){
+        return length;
     }
     public String toString(){
         return "Movie: " + title + " " + rating;
