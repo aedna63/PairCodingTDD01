@@ -67,5 +67,14 @@ public class MovieTest {
         Assertions.assertEquals(actual, expected);
 
     }
+    @Test
+        public void setLengthTest(){
+        Movie movie = new Movie("Avengers", Rating.R, 7.5, 155);
+        Integer expected = 155;
+        movie.setLength(155);
+        Integer actual = movie.getLength();
+        Assertions.assertEquals(actual, expected);
+
+    }
 
 }
