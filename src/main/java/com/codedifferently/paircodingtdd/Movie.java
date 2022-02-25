@@ -15,15 +15,16 @@ public class Movie {
     }
 
     public void setTitle(String title){
-
+        this.title = title;
     }
 
     public Rating getRating(){
 
-        return null;
+        return rating;
     }
 
     public void setRating(Rating rating){
+        this.rating = rating;
 
     }
     public String toString(){
