@@ -8,7 +8,7 @@ public class MovieTest {
     @Test
     public void constructorTest(){
         Movie movie = new Movie("Coming To America", Rating.R, 3.0, 134);
-        String expected = "Movie: Coming To America R";
+        String expected = "Movie: Coming To America, R, 3.0, 134";
         String actual = movie.toString();
         Assertions.assertEquals(expected, actual);
     }

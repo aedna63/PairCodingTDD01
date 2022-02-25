@@ -50,7 +50,7 @@ public class Movie {
     }
 
     public String toString() {
-        return "Movie: " + title + " " + rating;
+        return "Movie: " + title + "," + " " + rating + ","+ " " + ranking + "," + " " + length;
     }
 
 }
