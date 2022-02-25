@@ -11,12 +11,13 @@ public class Movie {
 
     public String getTitle(){
 
-        return null;
+        return title;
     }
 
 
 
     public void setTitle(String title){
+
 
     }
 

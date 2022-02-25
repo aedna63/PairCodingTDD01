@@ -20,5 +20,13 @@ public class MovieTest {
         String actual = movie.getTitle();
         Assertions.assertEquals(expected, actual);
     }
+    @Test
+    public void setTitleTest(){
+    Movie movie = new Movie("Bridesmaids", Rating.R);
+    String expected = "Bridesmaids";
+    movie.setTitle("Bridesmaids");
+    String actual = movie.getTitle();
+    Assertions.assertEquals(actual, expected);
+    }
 
 }
