@@ -8,6 +8,7 @@ public class Movie {
     public Movie(String title, Rating rating, Double ranking){
         this.title = title;
         this.rating = rating;
+        this.ranking = ranking;
     }
 
     public String getTitle(){
@@ -29,7 +30,7 @@ public class Movie {
 
     }
     public Double getRanking(){
-        return null;
+        return ranking;
     }
 
     public void setRanking(){
