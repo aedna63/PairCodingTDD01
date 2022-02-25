@@ -29,4 +29,12 @@ public class MovieTest {
     Assertions.assertEquals(actual, expected);
     }
 
+    @Test
+    public void getRatingTest(){
+        Movie movie = new Movie("Coming To America", Rating.R);
+        Rating expected = Rating.R;
+        Rating actual = movie.getRating();
+        Assertions.assertEquals(expected, actual);
+    }
+
 }

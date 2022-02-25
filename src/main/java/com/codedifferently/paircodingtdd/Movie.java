@@ -14,13 +14,18 @@ public class Movie {
         return title;
     }
 
-
-
     public void setTitle(String title){
-
 
     }
 
+    public Rating getRating(){
+
+        return null;
+    }
+
+    public void setRating(Rating rating){
+
+    }
     public String toString(){
         return "Movie: " + title + " " + rating;
     }
