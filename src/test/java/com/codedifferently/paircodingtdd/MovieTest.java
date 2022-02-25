@@ -23,8 +23,8 @@ public class MovieTest {
     @Test
     public void setTitleTest(){
     Movie movie = new Movie("Bridesmaids", Rating.R, 3.5,145);
-    String expected = "Bridesmaids";
-    movie.setTitle("Bridesmaids");
+    String expected = "Black Panther";
+    movie.setTitle("Black Panther");
     String actual = movie.getTitle();
     Assertions.assertEquals(actual, expected);
     }
@@ -39,8 +39,8 @@ public class MovieTest {
     @Test
         public void setRatingTest(){
         Movie movie = new Movie("bridesmaids", Rating.R, 3.5,166);
-        Rating expected = Rating.R;
-        movie.setRating(Rating.R);
+        Rating expected = Rating.PG_13;
+        movie.setRating(Rating.PG_13);
         Rating actual = movie.getRating();
         Assertions.assertEquals(actual, expected);
     }
@@ -54,8 +54,8 @@ public class MovieTest {
     @Test
         public void setRankingTest(){
         Movie movie = new Movie("Friday", Rating.R, 3.8,133);
-        Double expected = 3.8;
-        movie.setRanking(3.8);
+        Double expected = 6.5;
+        movie.setRanking(6.5);
         Double actual = movie.getRanking();
         Assertions.assertEquals(actual, expected);
     }
@@ -70,8 +70,8 @@ public class MovieTest {
     @Test
         public void setLengthTest(){
         Movie movie = new Movie("Avengers", Rating.R, 7.5, 155);
-        Integer expected = 155;
-        movie.setLength(155);
+        Integer expected = 120;
+        movie.setLength(120);
         Integer actual = movie.getLength();
         Assertions.assertEquals(actual, expected);
 
