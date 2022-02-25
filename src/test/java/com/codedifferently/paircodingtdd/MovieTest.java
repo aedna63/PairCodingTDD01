@@ -51,6 +51,13 @@ public class MovieTest {
         Double actual = movie.getRanking();
         Assertions.assertEquals(expected, actual);
     }
-
+    @Test
+        public void setRankingTest(){
+        Movie movie = new Movie("Friday", Rating.R, 3.8);
+        Double expected = 3.8;
+        movie.setRanking(3.8);
+        Double actual = movie.getRanking();
+        Assertions.assertEquals(actual, expected);
+    }
 
 }

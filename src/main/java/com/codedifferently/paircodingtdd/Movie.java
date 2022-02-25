@@ -33,7 +33,8 @@ public class Movie {
         return ranking;
     }
 
-    public void setRanking(){
+    public void setRanking(Double ranking){
+
 
     }
     public String toString(){
